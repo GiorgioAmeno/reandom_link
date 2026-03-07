@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+const links = [
+"https://mizou.com/login-thread?ID=tsIxcXPwWVgx5yiwWbVNQppDYSkuuwwQjd06lEm2Ed8-119301",
+"https://www.incambiamento.it/wp-content/uploads/2018/11/riprova-sari-piu-fortunato.png",
+"https://www.ettoreconti.edu.it/"
+];
+
+const random = Math.floor(Math.random() * links.length);
+window.location.href = links[random];
+</script>
+</head>
+</html>
